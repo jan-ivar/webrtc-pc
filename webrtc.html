@@ -2420,6 +2420,7 @@
                               <li>
                                 <p>
                                   If <var>description</var> is of type
+                                  {{RTCSdpType/"offer"}},
                                   {{RTCSdpType/"answer"}} or
                                   {{RTCSdpType/"pranswer"}}, and
                                   <var>transceiver</var>.
@@ -2440,9 +2441,9 @@
                                   </li>
                                   <li>
                                     <p>
-                                      If <var>description</var> rejects any of
+                                      If <var>description</var> is missing any of
                                       the offered layers, then remove the
-                                      dictionaries that correspond to rejected
+                                      dictionaries that correspond to missing
                                       layers from
                                       <var>transceiver</var>.{{RTCRtpTransceiver/[[Sender]]}}.{{RTCRtpSender/[[SendEncodings]]}}.
                                     </p>
